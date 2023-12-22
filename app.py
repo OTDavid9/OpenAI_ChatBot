@@ -62,5 +62,5 @@ def gpt_request():
         logging.error(f"An error occurred: {str(e)}")
         return jsonify({"success": False, "error": "An unexpected error occurred."})
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
