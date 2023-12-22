@@ -6,7 +6,7 @@ import os
 import logging
 
 app = Flask(__name__)
-# CORS(app)
+# CORS(app)l
 @app.route('/')
 def home():
     return render_template('/index.html')
